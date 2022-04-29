@@ -1,6 +1,19 @@
 body{
     background-color:lightblue;
 }
+
 h1, div {
     text-align:center;
+}
+
+h1 {
+    font-family: 'Orelega One', cursive;
+}
+
+h2, li, p{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+li, p {
+    font-size: 25px;
 }
