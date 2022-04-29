@@ -2,7 +2,7 @@ body{
     background-color:lightblue;
 }
 
-h1, div {
+h1, div, big {
     text-align:center;
 }
 
@@ -10,10 +10,19 @@ h1 {
     font-family: 'Orelega One', cursive;
 }
 
-h2, li, p{
+h2,.word, p{
     font-family: 'Cormorant Garamond', serif;
 }
 
-li, p {
+.word, p {
     font-size: 25px;
+}
+
+.container{
+ background-color: white;
+ padding:25px;
+}
+
+.big{
+    font-size:60px;
 }
