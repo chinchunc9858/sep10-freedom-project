@@ -29,6 +29,9 @@ h2,.word, p{
 }
 
 .frame{
-    width: 1525px;
-    height: 1000px;
+    display: block;
+    margin: auto;
+    width: 750px;
+    height: 500px;
+    
 }
