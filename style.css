@@ -21,8 +21,15 @@ h2,.word, p{
 .container{
  background-color: white;
  padding:25px;
+ 
 }
 
 .big{
     font-size:60px;
+}
+
+.frame {
+    text-align:center;
+    width: 1525px;
+    height: 1000px;
 }
