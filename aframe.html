@@ -22,14 +22,19 @@
   <body>
     <a-scene physics>
         <!-- Basic cylinder. -->
-      <a-cylinder rotation="0 230 90" position="-1 1 1" color="crimson" height="2" radius=".05"></a-cylinder>
-       <a-cylinder rotation="0 230 90" position="1 1 -1" color="crimson" height="2" radius=".05"></a-cylinder>
+      <a-cylinder rotation="0 230 90" position="-1 1 1" color="crimson" height="2.5" radius=".05"></a-cylinder>
+       <a-cylinder rotation="0 230 90" position="1 1 -1" color="crimson" height="2.5" radius=".05"></a-cylinder>
       <a-cylinder position="0 1 0" color="crimson" height=".2" radius="1"></a-cylinder>
-      <a-cylinder rotation="0 130 90" position="1 1 1" color="crimson" height="2" radius=".05"></a-cylinder>
-     <a-cylinder rotation="0 130 90" position="-1 1 -1" color="crimson" height="2" radius=".05"></a-cylinder>
+      <a-cylinder rotation="0 130 90" position="1 1 1" color="crimson" height="2.5" radius=".05"></a-cylinder>
+     <a-cylinder rotation="0 130 90" position="-1 1 -1" color="crimson" height="2.5" radius=".05"></a-cylinder>
+     <a-cylinder rotation="0 130 0" position="-1.8 1 2" color="crimson" height="0.5" radius="0.25"></a-cylinder>
+     <a-cylinder rotation="0 130 0" position="1.8 1 -2" color="crimson" height="0.5" radius="0.25"></a-cylinder>
+     <a-cylinder rotation="0 130 0" position="-1.8 1 -2" color="crimson" height="0.5" radius="0.25"></a-cylinder>
+     <a-cylinder rotation="0 130 0" position="1.8 1 2" color="crimson" height="0.5" radius="0.25"></a-cylinder>
     </a-scene>
  
-    
+    <a-entity geometry="primitive: cylinder; openEnded: true; thetaLength: 180"
+          material="side: double"></a-entity>
 
   
 
